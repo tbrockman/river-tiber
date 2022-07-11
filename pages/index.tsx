@@ -20,7 +20,7 @@ export default function FitScreen() {
 	const [socialButtonsHeight, setSocialButtonsHeight] = useState(0);
 
 	return (
-		<div className={`${styles.container} ${styles.app}`}>
+		<div className={styles.app}>
 			<Head>
 				<title>river tiber</title>
 				<meta
