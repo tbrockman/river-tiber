@@ -6,7 +6,13 @@ import { useState } from 'react';
 
 function FakeHeader({ socialButtonsHeight }) {
 	return (
-		<div style={{ height: socialButtonsHeight, margin: '2rem 0' }}></div>
+		<div
+			style={{
+				minHeight: socialButtonsHeight,
+				maxHeight: socialButtonsHeight,
+				margin: '2rem 0',
+			}}
+		></div>
 	);
 }
 
