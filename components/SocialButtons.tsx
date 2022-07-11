@@ -42,7 +42,7 @@ export default function SocialButtons({
 		if (ref.current && setSocialButtonsHeight) {
 			setSocialButtonsHeight(ref.current.offsetHeight);
 		}
-	}, [ref.current]);
+	}, [setSocialButtonsHeight]);
 
 	return (
 		<div className={styles['social-buttons']} ref={ref} {...rest}>
