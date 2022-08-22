@@ -3,4 +3,21 @@
 	align-items: center;
 	justify-content: space-evenly;
 	margin: 2rem 0;
+	position: relative;
+	margin-left: -0.75rem;
+}
+
+.social-buttons > a {
+	margin-right: 2em;
+}
+
+.social-buttons > a:last-child {
+	margin-right: 0;
+}
+
+.social-buttons-backdrop {
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
 }

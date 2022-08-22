@@ -2,8 +2,8 @@
 	position: absolute;
 	display: flex;
 	height: 100%;
-	width: 100%;
 	flex-direction: column;
+	justify-content: center;
 }
 
 .app {
@@ -11,6 +11,9 @@
 }
 
 .main {
+	background-image: url('/images/cute.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
 	position: relative;
 	min-height: 100%;
 	flex: 1;
