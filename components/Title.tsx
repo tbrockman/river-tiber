@@ -1,10 +1,10 @@
-import styles from './Title.module.css';
+import Image from 'next/image';
+import RiverTiberLogo from '../static/river-tiber-logo.svg';
 
 export default function Title() {
 	return (
-		<div>
-			<h1>river tiber</h1>
-			<h4>31 . 10 . 22</h4>
+		<div style={{ maxWidth: '50ch', textAlign: 'center' }}>
+			<Image src={RiverTiberLogo} />
 		</div>
 	);
 }
